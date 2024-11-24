@@ -1,0 +1,305 @@
+{
+  "outbounds": [
+    {
+      "tag": "VL-ID0",
+      "type": "vless",
+      "server": "104.18.2.2",
+      "server_port": 443,
+      "uuid": "Free-Proxy-JeelsBoobz",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "free-proxy.jeelsboobz.art",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/vless/MTAzLjE2OC4xNDYuMTY5OjIwMTMy",
+        "headers": {
+          "Host": "free-proxy.jeelsboobz.art"
+        }
+      }
+    },
+    {
+      "tag": "VL-SG0",
+      "type": "vless",
+      "server": "104.18.2.2",
+      "server_port": 443,
+      "uuid": "Free-Proxy-JeelsBoobz",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "free-proxy.jeelsboobz.art",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/vless/NDMuMTMzLjE0NS4xNTY6NTMxMzY",
+        "headers": {
+          "Host": "free-proxy.jeelsboobz.art"
+        }
+      }
+    }
+    /*,
+    {
+      "tag": "🇮🇩 Akamai Connected Cloud",
+      "type": "vless",
+      "server": "104.18.2.2",
+      "server_port": 443,
+      "uuid": "Free-Proxy-JeelsBoobz",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "free-proxy.jeelsboobz.art",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/vless/MTcyLjIzMi4yMzkuMTQ3OjU4Nw",
+        "headers": {
+          "Host": "free-proxy.jeelsboobz.art"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇩 Kaopu Cloud HK Limited",
+      "type": "vless",
+      "server": "104.18.2.2",
+      "server_port": 443,
+      "uuid": "Free-Proxy-JeelsBoobz",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "free-proxy.jeelsboobz.art",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/vless/MzguNjAuMTcxLjExMTo1ODc",
+        "headers": {
+          "Host": "free-proxy.jeelsboobz.art"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇩 Alibaba (US) Technology Co., Ltd.",
+      "type": "vless",
+      "server": "104.18.2.2",
+      "server_port": 443,
+      "uuid": "Free-Proxy-JeelsBoobz",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "free-proxy.jeelsboobz.art",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/vless/OC4yMTUuMjUuMjI1OjQwNDIy",
+        "headers": {
+          "Host": "free-proxy.jeelsboobz.art"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 Alibaba (US) Technology Co., Ltd.",
+      "type": "vless",
+      "server": "104.18.2.2",
+      "server_port": 443,
+      "uuid": "Free-Proxy-JeelsBoobz",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "free-proxy.jeelsboobz.art",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/vless/OC4yMTkuMy4yMTM6NTgyNzI",
+        "headers": {
+          "Host": "free-proxy.jeelsboobz.art"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 Oracle Corporation",
+      "type": "vless",
+      "server": "104.18.2.2",
+      "server_port": 443,
+      "uuid": "Free-Proxy-JeelsBoobz",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "free-proxy.jeelsboobz.art",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/vless/MTM4LjIuNzcuMTc5OjMwMDE4",
+        "headers": {
+          "Host": "free-proxy.jeelsboobz.art"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 Oracle Corporation [1]",
+      "type": "vless",
+      "server": "104.18.2.2",
+      "server_port": 443,
+      "uuid": "Free-Proxy-JeelsBoobz",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "free-proxy.jeelsboobz.art",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/vless/MTY4LjEzOC4xNjAuNTQ6MTkwODE",
+        "headers": {
+          "Host": "free-proxy.jeelsboobz.art"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 DigitalOcean, LLC",
+      "type": "vless",
+      "server": "104.18.2.2",
+      "server_port": 443,
+      "uuid": "Free-Proxy-JeelsBoobz",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "free-proxy.jeelsboobz.art",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/vless/MTY3LjE3Mi45MC4xNDI6ODQ0Mw",
+        "headers": {
+          "Host": "free-proxy.jeelsboobz.art"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 Alibaba (US) Technology Co., Ltd. [1]",
+      "type": "vless",
+      "server": "104.18.2.2",
+      "server_port": 443,
+      "uuid": "Free-Proxy-JeelsBoobz",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "free-proxy.jeelsboobz.art",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/vless/OC4yMjIuMjQzLjczOjI2Mzg1",
+        "headers": {
+          "Host": "free-proxy.jeelsboobz.art"
+        }
+      }
+    }*/
+  ]
+}
